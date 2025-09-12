@@ -54,7 +54,7 @@ fetch(sheetURL)
           <div class="p-4 text-center">
             <h3 class="text-xl font-semibold mb-1">${nome}</h3>
             <p class="text-gray-700 mb-4">R$ ${preco}</p>
-            <a href="https://wa.me/5522996037657?text=Olá! Gostaria de comprar a camisa ${nome} (código: ${codigo}).%0A%0APor favor, informe os dados abaixo:%0A- Nome completo:%0A- Telefone:%0A- CPF:%0A- Endereço:%0A- Forma de pagamento (Pix ou Cartão):"
+            <a href="https://wa.me/5522996037657?text=Olá! Gostaria de comprar a camisa ${nome} (código: ${codigo}).%0A%0APor favor, informe os dados abaixo:%0A- Nome completo:%0A- Telefone:%0A- CPF:%0A- Endereço:%0A- Cep%0A- Forma de pagamento (Pix ou Cartão):"
                target="_blank"
                class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition">
               Comprar no WhatsApp
