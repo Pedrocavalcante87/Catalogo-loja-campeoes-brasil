@@ -1,0 +1,52 @@
+/* Fontes profissionais e minimalistas para títulos esportivos */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+h1, h2, h3, .font-oswald {
+  font-family: 'Oswald', Arial, sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Botões e links mais estilosos */
+.btn-futebol {
+  font-family: 'Oswald', Arial, sans-serif;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  letter-spacing: 0.05em;
+  transition: background 0.2s;
+}
+
+/* Minimalismo: cores neutras e espaçamento limpo */
+body {
+  background: #f9fafb;
+  color: #222;
+}
+
+section, main {
+  margin-bottom: 2rem;
+}
+
+/* Animação suave para cards do catálogo */
+.grid > div {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.grid > div:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
+
+/* Animação suave para botões */
+.btn-futebol, .bg-black {
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.btn-futebol:hover, .bg-black:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transform: scale(1.04);
+}
+
+/* Banner e rodapé com espaçamento extra para visual clean */
+main, section, footer {
+  margin-bottom: 2rem;
+}
+
+/* Exemplo de uso: <h2 class="font-oswald">Título</h2> ou <a class="btn-futebol">Botão</a> */
